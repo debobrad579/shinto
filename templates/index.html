@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='shinto_logo.png') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Shintō</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div>
+            <h2>What is Shintō?</h2>
+            <p>
+                Shintō is traditional nature religion practiced in Japan that didn't have a founder, any sacred scripts, or any rules that they had to strictly follow, but its beliefs have stayed throughout the generations. It is tied closely with Japan's value system and the way of thinking and acting as it was developed to set apart indigenous Japanese beliefs from Buddhism which was introduced into Japan in the 6th century CE. Shintō is more closely connected with the Japanese peoples' personal beliefs and motivations rather than a formal set of beliefs or philosophy.
+            </p>
+            <h3>There are three main types of Shintō that still exist today:</h3>
+            <ul>
+                <li>
+                    Shrine Shintō (Jinja Shintō):
+                    <ul>
+                        <li>Shrine Shintō has existed since the beginning of Japanese history and still does.</li>
+                        <li>It includes the now obsolete State Shintō (Kokka Shintō), which is based on the total identity between state and religion.</li>
+                        <li>It's very closely related to the Japanese Imperial family.</li>
+                    </ul>
+                </li>
+                <li>
+                    Sect Shintō (Kyōha Shintō):
+                    <ul>
+                        <li>Sect Shintō is fairly new.</li>
+                        <li>It consists of 13 major sects that originated in the 19th century, and has others that were formed after World War II.</li>
+                        <li>These sects were organized into religious bodies by founders.</li>
+                    </ul>
+                </li>
+                <li>
+                    Folk Shintō (Minzoku Shintō):
+                    <ul>
+                        <li>Folk Shintō is closely related to other forms of Shintō.</li>
+                        <li>It has no major organization structure.</li>
+                        <li>It surrounds the respect of roadside locations and rural families' agriculture.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>What Does Shintō Entail?</h2>
+            <p>
+                The word Shintō means “the way of the kami,” and this word, “kami,” represents the gods of Shintō. The gods of Shintō are sacred spirits taking the form of really important things and concepts; for example, trees, mountains, rain, rivers, fertility, etc. After one dies, they become kami, deeply respected by their families as ancestral kami. Amaterasu, the Sun Goddess, is considered one of the most important kami. These kami live in “ame” (heaven) instead of on earth; this place isn't a paradise like what someone might think of a Christian heaven for example, but it is merely where these spirits reside.
+            </p>
+            <p>
+                Shintō is a fundamentally optimistic religion; everyone is born good, and evil is merely caused by evil spirits. In order for someone to avoid these evil spirits, they could do rituals of purification, pray, or provide offerings; purifications rids impurity. The purpose of life in Shintō is to merely keep these evil spirits away and live life in a "good" way like it was meant to be lived.
+            </p>
+            <img src="{{ url_for('static', filename='torii.webp') }}">
+        </div>
+        <div>
+            <h2>Relationship with Nature</h2>
+            <div class="grid-container">
+                <p>
+                    Shintō is very closely connected with nature—it respects the mystery of nature and views it spiritually with a different relationship to nature. It's possible to experience this spiritual mystery of nature through wild animals like foxes. Shinto shrines (jinja) are places to worship these kami—they are a small gateway to view the sacred world. These shrines have very distinct gateways that can be recognized from far away called "torii." Their location in nature is very important—it reflects the kami that the shrine is there for. For example, the shrines on Mount Fuji are there for the kami for cherry blossoms, Konohanasakuya, as that is where this kami is said to reside. There are many other shrines located by smaller locations where kami reside, such as trees. These trees are marked by a rope tied around the trunk of the specific tree.
+                </p>
+                <img src="{{ url_for('static', filename='jinja.jpg') }}">
+            </div>
+        </div>
+        <div>
+            <h2>Work Cited</h2>
+            <p>
+                Hirai, Naofusa. "Shintō". <i>Encyclopedia Britannica</i>, 17 Apr. 2022, <a href="https://www.britannica.com/topic/Shinto">https://www.britannica.com/topic/Shinto</a>. Accessed 19 September 2022.
+            </p>
+            <p>
+                Thedifferentlevel. “The Practices and Principles of Shintoism.” <i>LEVEL</i>, 13 June 2022, <a href="https://different-level.com/the-practices-and-principles-of-shintoism/#:~:text=Unlike%20many%20other%20religions%2C%20in,purification%2C%20prayers%2C%20and%20offerings">https://different-level.com/the-practices-and-principles-of-shintoism/#:~:text=Unlike%20many%20other%20religions%2C%20in,purification%2C%20prayers%2C%20and%20offerings</a>. Accessed 20 September 2022.
+            </p>
+            <p>
+                McDougall, Edward. “Shinto: How to Reconnect with Nature.” <i>IAI TV - Changing How the World Thinks</i>, 30 Apr. 2020, <a href="https://iai.tv/articles/shinto-how-to-reconnect-with-nature-auid-1158">https://iai.tv/articles/shinto-how-to-reconnect-with-nature-auid-1158</a>. Accessed 25 September 2022.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
